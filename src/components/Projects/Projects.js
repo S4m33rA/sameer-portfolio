@@ -60,7 +60,7 @@ function Projects() {
               title="Task Management App"
               description="A task management application focused on organizing tasks, tracking progress, and improving day-to-day productivity."
               ghLink="https://github.com/S4m33rA/Task-Management-App"
-              demoLink="sameer-task-management-app-2026.vercel.app"
+              demoLink="https://sameer-task-management-app-2026.vercel.app"
             />
           </Col>
 
