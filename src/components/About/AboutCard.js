@@ -10,22 +10,29 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi, I am <span className="purple">Sameer Aleem </span>
             from <span className="purple"> Sydney Australia.</span>
-            <br /> I am currently pursuing Bachelor of Business (IT and International Business) at Macquarie University.
+            <br /> I am currently pursuing a Bachelor of Business (IT and
+            International Business) at Macquarie University.
             <br />
-            Additionally, I am currently employed as a Sales Assistant at JD Sports.
+            I bring experience across internships, freelance development, and
+            customer-facing roles where teamwork and communication directly
+            impact results.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            My personal brand is built around being proactive, calm under
+            pressure, and focused on structured collaboration.
+            <br />
+            <br />
+            Outside work and study, I also enjoy:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Problem-solving strategy games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching and Playing Football/Soccer
+              <ImPointRight /> Watching and playing football/soccer
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling and exploring new places
             </li>
           </ul>
 

@@ -19,37 +19,45 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a student and I am just getting started in my career. I'm looking forward to improving more and enjoying this journey!
+              I am a Business and IT student focused on becoming a strong
+              Business Analyst with a practical technology foundation.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++ and Javascript. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b>           
-              </i>
-              <br />
-              I also show a good level of understanding in &nbsp;
-              <i>
-                <b className="purple">SQL, Excel, Tableau, or data visualization tools. </b>           
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              <br />My approach is consistently
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  proactive, structured, and collaborative.
                 </b>
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              I enjoy translating business problems into clear action plans
+              through&nbsp;
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">
+                  stakeholder communication, process analysis, and teamwork
+                </b>
+                .
               </i>
+              <br />
+              I bring practical capability in&nbsp;
+              <i>
+                <b className="purple">
+                  SQL, Excel, Tableau, and web development tools
+                </b>
+                .
+              </i>
+              <br />
+              <br />
+              I am currently strengthening my ability to deliver value through
+              cross-functional projects using
+              <i>
+                <b className="purple">
+                  {" "}
+                  modern JavaScript frameworks and data-informed thinking
+                </b>
+              </i>
+              .
             </p>
           </Col>
           <Col md={4} className="myAvtar">

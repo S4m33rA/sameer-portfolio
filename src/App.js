@@ -5,7 +5,11 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import AssessmentHome from "./components/Assessment/AssessmentHome";
+import CoverLetterPage from "./components/Assessment/CoverLetterPage";
+import LinkedInPage from "./components/Assessment/LinkedInPage";
+import CVPage from "./components/Assessment/CVPage";
+import VideoResponsePage from "./components/Assessment/VideoResponsePage";
 import {
   BrowserRouter as Router,
   Route,
@@ -15,6 +19,7 @@ import {
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
+import "./components/Assessment/assessment.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -36,9 +41,14 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/assessment" element={<AssessmentHome />} />
+          <Route path="/cover-letter" element={<CoverLetterPage />} />
+          <Route path="/linkedin-brand" element={<LinkedInPage />} />
+          <Route path="/cv" element={<CVPage />} />
+          <Route path="/video-response" element={<VideoResponsePage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/resume" element={<Navigate to="/cv" />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

@@ -7,6 +7,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineFileText,
+  AiOutlineVideoCamera,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -54,6 +56,53 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/assessment"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Assessment
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/cover-letter"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFileText style={{ marginBottom: "2px" }} /> Cover
+                Letter
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/linkedin-brand"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> LinkedIn
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link as={Link} to="/cv" onClick={() => updateExpanded(false)}>
+                <CgFileDocument style={{ marginBottom: "2px" }} /> CV
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/video-response"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineVideoCamera style={{ marginBottom: "2px" }} /> Video
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
@@ -71,16 +120,6 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

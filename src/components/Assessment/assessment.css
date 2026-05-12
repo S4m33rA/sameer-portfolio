@@ -1,0 +1,102 @@
+.assessment-section {
+  padding-top: 130px;
+  padding-bottom: 70px;
+  color: white;
+}
+
+.assessment-title {
+  font-size: 2.3em;
+  padding-bottom: 12px;
+}
+
+.assessment-subtitle {
+  color: #cfcfcf;
+  margin-bottom: 25px;
+}
+
+.assessment-card {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 14px !important;
+  margin-bottom: 18px;
+}
+
+.assessment-card .card-body {
+  color: #e9e9e9;
+}
+
+.assessment-card h4,
+.assessment-card h5 {
+  color: #c770f0;
+}
+
+.assessment-list {
+  margin-bottom: 0;
+}
+
+.assessment-list li {
+  margin-bottom: 6px;
+}
+
+.word-count-badge {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(199, 112, 240, 0.2);
+  border: 1px solid rgba(199, 112, 240, 0.4);
+  color: #f2deff;
+  font-size: 0.88rem;
+}
+
+.cv-contact-line {
+  margin-bottom: 8px;
+  color: #cfcfcf;
+}
+
+.cv-entry {
+  margin-bottom: 16px;
+}
+
+.cv-entry h5 {
+  margin-bottom: 4px;
+}
+
+.cv-entry small {
+  color: #d0d0d0;
+}
+
+.document-frame {
+  width: 100%;
+  min-height: 900px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.linkedin-screenshot {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.linkedin-profile-link {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(199, 112, 240, 0.5);
+  background: rgba(199, 112, 240, 0.2);
+  color: #f2deff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.linkedin-profile-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#tsparticles {
+  pointer-events: none;
+}
